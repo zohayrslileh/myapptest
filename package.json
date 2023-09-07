@@ -1,16 +1,17 @@
 {
-  "name": "Layer7-MultiBypass",
-  "version": "0.0.1",
-  "main": "method.js",
-  "author": "RootSec",
-  "contributors": [
-    {
-      "name": "RootSec",
-      "email": "microfix1252002@gmail.com"
-    }
-  ],
-  "dependencies": {
-    "cloudscraper": "^4.6.0",
-    "request": "^2.88.2"
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+      "start": "nodemon src/index.js localhost 8080"
+    },
+    "dependencies": {
+      "node-fetch": "3.3.1"
+    },
+    "devDependencies": {
+      "nodemon": "1.18.4"
+    },
+    "keywords": []
   }
-}
